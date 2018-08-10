@@ -1,0 +1,458 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'sans-serif';
+  font-size: 16px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec-left {
+  background: url(../../images/tree2.png);
+  background-color: #795548;
+  padding-top: 33px;
+  padding-left: 50px;
+}
+
+header label, header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+header a:focus {
+  text-decoration: none;
+  color: green;
+}
+
+header p {
+  margin: 25px 10px 0 10px;
+  width: 170px;
+}
+
+header span {
+  color: #fff;
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar-toggle .icon-bar {
+  width: 20px;
+  background: #fff;
+}
+
+.navbar {
+  margin-top: 100px;
+}
+
+.nav li {
+  float: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#call-back {
+  margin-top: 50px;
+  display: block;
+}
+
+.sec-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fixed {
+  padding-left: 50px;
+  padding-top: 33px;
+  background-color: #fbfbfb;
+}
+
+.fixed label, .fixed p {
+  color: #777;
+  font-size: 17px;
+}
+
+.fixed li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.params {
+  margin-top: 80px;
+}
+
+.price {
+  margin-top: 45px;
+}
+
+.price .grn-txt {
+  color: green;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.grn-btn {
+  width: 255px;
+  height: 65px;
+  color: #fff;
+  font-size: 20px;
+  background: url(../../images/tree2.png) 50%;
+  background-color: green;
+  margin-top: 40px;
+}
+
+.grn-btn:active {
+  background-color: #4caf50;
+}
+
+.disc {
+  width: 294px;
+  margin-top: 60px;
+}
+
+b {
+  font-family: sans-serif;
+}
+
+.content {
+  padding-top: 30px;
+  padding-left: 30px;
+  max-width: 1110px;
+}
+
+.content h1 {
+  font-size: 60px;
+}
+
+.path a {
+  color: #777;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.title-img {
+  max-width: 780px;
+}
+
+.home-lvl {
+  margin-left: 40px;
+}
+
+.home-lvl label {
+  color: #777;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+.home-lvl img {
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+.view-carousel {
+  margin-top: 35px;
+  height: 110px;
+}
+
+.view-carousel .flickity-viewport {
+  height: 110px;
+}
+
+.view-carousel img {
+  display: block;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-bottom: 2px;
+}
+
+.view-carousel img:hover {
+  border-bottom: 2px solid green;
+}
+
+.view-carousel .flickity-button-icon {
+  fill: green;
+}
+
+.view-carousel .flickity-page-dots {
+  display: none;
+}
+
+.head-comp {
+  padding: 20px;
+  background-color: #eee;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.head-comp b {
+  font-size: 22px;
+  font-family: cursive;
+  margin-left: 30px;
+}
+
+.list-comps {
+  max-width: 1110px;
+}
+
+.list-comps ul {
+  list-style: none;
+}
+
+.list-comps li {
+  padding: 5px;
+  padding-left: 20px;
+  font-family: sans-serif;
+}
+
+.comp-img {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+.comp-img label {
+  color: #fff;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.img-1 {
+  background: url(../../images/брёвна1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  background: url(../../images/брёвна2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.prov {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #fbfbfb;
+  text-align: center;
+}
+
+.prov p {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.prov img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.proj {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.proj p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.proj-carousel {
+  background: url(../../images/dom1.png) no-repeat;
+  background-size: 931px;
+}
+
+.proj-carousel img {
+  width: 930px;
+}
+
+.proj-carousel .flickity-viewport {
+  max-height: 623px;
+}
+
+.proj-carousel .flickity-slider {
+  margin-left: -460px;
+}
+
+.proj-carousel .flickity-page-dots, .proj-carousel .flickity-button {
+  display: none;
+}
+
+.build {
+  margin-top: 40px;
+}
+
+.build h2 {
+  text-align: center;
+}
+
+.build img {
+  margin-top: 15px;
+}
+
+.video {
+  background: url(../../images/dom4.png);
+  height: 378px;
+  width: 535px;
+}
+
+.video img {
+  width: 50px;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.video label {
+  color: #fff;
+  position: absolute;
+  top: 90%;
+}
+
+.pdf-btn {
+  vertical-align: top;
+  background-color: green;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px;
+  border: none;
+}
+
+footer {
+  margin-top: 120px;
+}
+
+footer label, footer a {
+  color: #777;
+  font-size: 15px;
+  text-transform: none;
+  display: block;
+  text-align: left;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+footer .grn-txt {
+  color: green;
+}
+
+.icons {
+  margin-top: 30px;
+}
+
+.icon {
+  max-width: 40px;
+}
+
+.copy {
+  margin-top: 60px;
+}
+
+.copy a {
+  float: right;
+}
+
+@media (min-width: 1024px) {
+  .navbar-header {
+    float: left;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fixed {
+    margin-top: 150px;
+    margin-left: 804px;
+  }
+  .fixed li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content {
+    margin-left: -1144px;
+  }
+  .lvls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .pr, .cntcs, .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .logo {
+    width: 100px;
+    height: 100px;
+  }
+  header .navbar {
+    margin-top: 50px;
+  }
+  .sec-content {
+    display: block;
+  }
+  .fixed {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .content {
+    margin-left: 0px;
+  }
+}
